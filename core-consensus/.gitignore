@@ -1,0 +1,34 @@
+# backup files
+*~
+*#
+.#*
+\#*
+
+# editor file artifacts
+.*.sw*
+.idea
+.vscode
+
+# installed platform-specific binaries
+bin/
+.DS_Store
+.project
+.hmake
+vendor/
+!vendor/manifest
+
+## golang dlv / build
+engine
+debug
+
+# log data
+logs/
+*commit*.txt
+*log*.txt
+
+# crypto waste
+*.dat
+*.pem
+*.pub
+
+typescript
